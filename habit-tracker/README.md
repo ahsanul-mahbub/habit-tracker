@@ -1,4 +1,4 @@
-# Almanac — Habit Tracker & Focus Timer
+# RoboNexBD — Habit Tracker & Focus Timer
 
 A private, offline personal productivity dashboard: daily habit tracking with
 streaks and history, plus a Pomodoro-style focus timer. No backend, no
@@ -75,12 +75,12 @@ choice is remembered, same as everything else.
 
 Everything — habits, completion history, streaks, your daily goal, theme,
 timer settings, and session log — is stored only in this browser, under a
-handful of `almanac.*` keys in LocalStorage. Nothing is sent anywhere. If you
+handful of `robonexbd.*` keys in LocalStorage. Nothing is sent anywhere. If you
 clear your browser's site data for this page, or open it in a different
 browser or a private/incognito window, you'll start fresh.
 
 There's no export/import built in; if you want to move your data to another
-browser, you'd need to copy the `almanac.*` LocalStorage keys over manually
+browser, you'd need to copy the `robonexbd.*` LocalStorage keys over manually
 via your browser's developer tools.
 
 ## Browser support
@@ -89,3 +89,7 @@ Works in any current version of Chrome, Firefox, Safari, or Edge. It needs
 LocalStorage to be available and not blocked (some private-browsing modes
 restrict it) — if storage ever fails to save, the app will tell you rather
 than silently losing data.
+
+---
+
+© 2026 RoboNexBD. All Rights Reserved.
